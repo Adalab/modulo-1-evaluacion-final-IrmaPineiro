@@ -2,7 +2,6 @@
 
 
 .shop-texts {
-    font-family: vars.$font-main;
     padding: 15px;
     
 }
@@ -25,21 +24,24 @@
 
 }
 
-.link-enlace-comprar {
+.link-comprar {
     display: flex;
     justify-content: left;
-    padding: 10px;
+    padding-bottom: 35px;
+    padding: 15px;
     padding-bottom: 20px;
 }
 
-.enlace-comprar {
+.comprar {
     background-color: white;
-    border: 1px solid green;
+    border: 3px solid vars.$color-main;
     text-decoration: none;
     display: inline-block;
     padding: 10px;
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 30px;
+    color: vars.$color-main;
+    font-weight: bold;
 
 }
