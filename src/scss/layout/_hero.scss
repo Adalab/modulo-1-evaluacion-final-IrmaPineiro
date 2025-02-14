@@ -5,11 +5,12 @@
     width: 100%;
     height: 100vh;
     background-image: url('../images/cover.jpeg');
-    
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: 80%;
     top: 0;
+   
+
 
 
 }
@@ -21,7 +22,7 @@
 
 
 .hero-texts {
-    color: white;
+    color: vars.$color-quaternary;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -42,20 +43,26 @@
     padding-bottom: 30px;
 }
 
-.hero-enlace {
+.container-link-bottom {
     display: flex;
     justify-content: center;
     padding-bottom: 30px;
+    transform: rotate(0.25turn);
 }
 
 .link-bottom {
-    background-color: white;
+    background-color: vars.$color-quaternary;
     text-decoration: none;
-    inline-size: 40px;
-    padding: 5px;
-    padding-left: 5px;
-    padding-right: 5px;
+    inline-size: 50px;
+    text-align: center;
+    padding: 10px;
     border-radius: 5px;
+    color: vars.$color-main;
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 50%;
+    
+    
 
 }
 

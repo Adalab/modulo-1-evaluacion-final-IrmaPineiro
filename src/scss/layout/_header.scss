@@ -1,9 +1,9 @@
-
+@use '../core/variables' as vars;
 
 
 .menu {
     width: 30px;
-    background-color: green;
+    background-color: vars.$color-main;
     position: fixed;
     z-index: 1;
 }

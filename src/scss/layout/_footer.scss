@@ -1,0 +1,46 @@
+@use '../core/variables' as vars;
+
+.footer {
+    background-color: vars.$color-tertiary;
+    color: vars.$color-quaternary;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+
+.list-content a {
+    text-decoration: none;
+    color: vars.$color-quaternary;
+    padding: 10px;
+    padding-bottom: 25px;
+
+}
+
+.list-socialmedia a {
+    text-decoration: none;
+    color: vars.$color-quaternary;
+    padding-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+// @media (min-width: 768px) {
+//     .footer ¨{
+//         flex-wrap: nowrap;
+//         justify-content: space-between;
+
+//     }
+    
+// }
