@@ -14,6 +14,30 @@
     
 }
 
+@media (min-width: 768px) {
+    .footer {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: left;
+    padding-left: 90px;
+    padding-right: 90px;
+    }
+
+    .copyright {
+        order: -1;
+    }
+}
+
+@media (min-width: 1024px) {
+    .footer {
+    padding-left: 200px;
+    padding-right: 200px;
+    }
+}
+
+
+
 
 .container-link-top {
     background-color: vars.$color-quaternary;

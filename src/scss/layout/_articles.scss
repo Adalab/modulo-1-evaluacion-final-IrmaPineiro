@@ -39,8 +39,16 @@
     align-content: center;
     text-align: center;
     row-gap: 30px;
+
+    @media (min-width: 768px) {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
       
 }
+
+
+
 
 .article h5 {
     padding-top: 10px;
