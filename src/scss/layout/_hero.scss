@@ -23,11 +23,10 @@
     align-content: center;
     text-align: center;
     padding-top: 60vh; 
-    width: 380px;
+    width: 300px;
 
     @media (min-width: 768px) {
         padding-top: 50vh;
-        width: 480px;
         align-items: center;
     }
     
@@ -41,7 +40,7 @@
 
 .hero-texts h1 {
     font-size: 30px;
-    padding-bottom: 20px;  
+    padding-bottom: 40px;  
     text-align: center;
 
     @media (min-width: 768px) {
@@ -57,18 +56,21 @@
 
 .hero-texts p {
     font-size: 16px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
+    width: 290px;
+    
     
 
     @media (min-width: 768px) {
         font-size: 20px;
         padding-bottom: 15px;
-        width: 450px;
+        width: 300px;
 }
 
      @media (min-width: 1024px) {
         font-size: 24px;
         padding-bottom: 15px;
+        width: 700px;
 }
 
 
