@@ -3,7 +3,7 @@
 
 .hero {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-image: url('../images/cover.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,70 +22,43 @@
     flex-direction: column;
     align-content: center;
     text-align: center;
-    padding-top: 60vh; 
-    width: 300px;
+    align-items: center;
+    padding-top: 40vh; 
+    padding-bottom: 40px;
+    width: 60%;
 
-    @media (min-width: 768px) {
-        padding-top: 50vh;
-        align-items: center;
-    }
-    
-    @media (min-width: 1024px) {
-        padding-top: 50vh;
-        width: 680px;
-        align-items: center;
-    }
+   
+   
 }
 
 
 .hero-texts h1 {
     font-size: 30px;
-    padding-bottom: 40px;  
-    text-align: center;
-
+    padding-bottom: 20px;   
+    
     @media (min-width: 768px) {
-        font-size: 60px;
-        padding-bottom: 10px; 
-}
-
-    @media (min-width: 1024px) {
-        padding-bottom: 10px;
-}
+        font-size: 75px;           
+    }
 }
 
 
 .hero-texts p {
     font-size: 16px;
-    padding-bottom: 40px;
-    width: 290px;
+    padding-bottom: 20px;
     
-    
-
     @media (min-width: 768px) {
-        font-size: 20px;
-        padding-bottom: 15px;
-        width: 300px;
-}
-
-     @media (min-width: 1024px) {
-        font-size: 24px;
-        padding-bottom: 15px;
-        width: 700px;
+        font-size: 24px;         
+    }
 }
 
 
-
-}
-
-
-
-.container-link-bottom {
+.link-bottom {
     background-color: vars.$color-quaternary;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50px;
     height: 50px;
-    border-radius: 50px;
+    border-radius: 50px;  
 }
 

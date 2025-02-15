@@ -2,29 +2,23 @@
 
 
 .shop-texts {
-    padding: 20px;
-    
+    padding: 20px;   
 }
 
 .shop-texts h3 {
     color: vars.$color-main;
     padding-top: 10px;
-   
-
 }
-.shop-texts h2 {
-    padding-top: 10px;
-   
 
+.shop-texts h2 {
+    padding-top: 10px;  
 }
 
 .shop-texts p {
     padding-top: 10px;
-   
-
 }
 
-.link-comprar {
+.link-shopping {
     display: flex;
     justify-content: left;
     padding-bottom: 35px;
@@ -32,7 +26,7 @@
     padding-bottom: 20px;
 }
 
-.comprar {
+.shopping {
     background-color: white;
     border: 3px solid vars.$color-main;
     text-decoration: none;
@@ -44,5 +38,4 @@
     color: vars.$color-main;
     font-weight: bold;
     font-size: 20px;
-
 }
