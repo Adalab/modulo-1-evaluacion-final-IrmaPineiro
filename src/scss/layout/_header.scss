@@ -2,13 +2,16 @@
 
 
 .menu {
-    width: 30px;
+    width: 35px;
     background-color: vars.$color-main;
     position: fixed;
     z-index: 1;
+    padding: 10px;
+    
 }
 
 .menu img {
     width: 100%;
     height: auto;
 } 
+

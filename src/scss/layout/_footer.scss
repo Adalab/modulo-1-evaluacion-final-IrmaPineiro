@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    align-items: center;
     padding-top: 30px;
     gap: 30px;
     padding-bottom: 30px;
@@ -28,7 +29,16 @@
 }
 
 
-
+.container-link-top {
+    background-color: vars.$color-quaternary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  
+}
 
 
 
