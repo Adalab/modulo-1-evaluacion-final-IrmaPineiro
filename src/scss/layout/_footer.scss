@@ -11,6 +11,7 @@
     gap: 30px;
     padding-bottom: 70px;
     position: relative;
+    
 }
 
 
@@ -23,8 +24,15 @@
     height: 50px;
     border-radius: 50px;
     position: absolute;
-    right: 45%;
-    top: -20px; 
+    transform-origin: center;
+    top: -25px;
+    left: 50%;
+    transform: translate(-50%);
+    
+    
+    
+
+    
 }
 
 
