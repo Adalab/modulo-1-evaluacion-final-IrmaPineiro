@@ -13,10 +13,8 @@
     flex-direction: column;
     justify-items: center;
     align-items: center;
-}
 
-
-.hero-texts {
+&__texts {
     color: vars.$color-quaternary;
     display: flex;
     flex-direction: column;
@@ -25,14 +23,11 @@
     align-items: center;
     padding-top: 40vh; 
     padding-bottom: 40px;
-    width: 60%;
-
-   
-   
+    width: 60%;   
 }
 
 
-.hero-texts h1 {
+&__texts h1 {
     font-size: 30px;
     padding-bottom: 20px;   
     
@@ -42,13 +37,15 @@
 }
 
 
-.hero-texts p {
+&__texts p {
     font-size: 16px;
     padding-bottom: 20px;
     
     @media (min-width: 768px) {
         font-size: 24px;         
     }
+}
+
 }
 
 
