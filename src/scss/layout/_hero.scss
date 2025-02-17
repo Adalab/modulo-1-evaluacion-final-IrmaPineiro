@@ -21,15 +21,17 @@
     align-content: center;
     text-align: center;
     align-items: center;
-    padding-top: 40vh; 
+    padding-top: 35vh; 
     padding-bottom: 40px;
-    width: 60%;   
+    width: 50%;   
+ 
 }
 
 
 &__texts h1 {
     font-size: 30px;
-    padding-bottom: 20px;   
+    padding-bottom: 20px;  
+    
     
     @media (min-width: 768px) {
         font-size: 75px;           
@@ -42,7 +44,7 @@
     padding-bottom: 20px;
     
     @media (min-width: 768px) {
-        font-size: 24px;         
+        font-size: 24px;       
     }
 }
 
